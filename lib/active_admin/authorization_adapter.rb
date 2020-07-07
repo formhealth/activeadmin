@@ -14,7 +14,7 @@ module ActiveAdmin
   # for all requests to `#authorized?`. It should be the starting point for
   # implementing your own authorization adapter.
   #
-  # To view an example subclass, check out `ActiveAdmin::CanCanAdapter`
+  # To view an example subclass, check out `ActiveAdmin::PunditAdapter`
   class AuthorizationAdapter
     attr_reader :resource, :user
 
