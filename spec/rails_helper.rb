@@ -18,8 +18,6 @@ RSpec.configure do |config|
   config.use_instantiated_fixtures = false
   config.render_views = false
 
-  config.include Devise::Test::ControllerHelpers, type: :controller
-
   require 'support/active_admin_integration_spec_helper'
   config.include ActiveAdminIntegrationSpecHelper
 end
